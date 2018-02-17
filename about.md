@@ -3,16 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
+By day I'm a Full Stack Developer at [Potato](https://p.ota.to), making websites for the biggest tech brands. By night I develop games and play with functional programming, occasionally at the same time.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+My current big project is a multiplayer digital card game called Hubris. You can [play it](https://playhubris.com) or [peruse the source](https://github.com/RoganMurley/hubris).

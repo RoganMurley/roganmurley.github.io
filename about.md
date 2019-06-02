@@ -3,6 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-By day I'm a Full Stack Developer at [Potato](https://p.ota.to), making websites for the biggest tech brands. By night I develop games and play with functional programming, occasionally at the same time.
+By day I'm a Software Engineer at [Udemy](https://www.udemy.com) working on the video player. By night I develop games and play with functional programming, occasionally at the same time.
 
-My current big project is a multiplayer digital card game called Hubris. You can [play it](https://playhubris.com) or [peruse the source](https://github.com/RoganMurley/hubris).
+My current big project is a multiplayer digital card game called Ring of Worlds. You can [play it](https://www.ringofworlds.com) or [peruse the source](https://github.com/RoganMurley/Ring-of-Worlds).

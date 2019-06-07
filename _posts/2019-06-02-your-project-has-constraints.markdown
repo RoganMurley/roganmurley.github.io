@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Your Project has Constraints"
+title:  "Your project has constraints"
 date:   2019-06-02 15:10:00 +0000
 comments: true
 ---

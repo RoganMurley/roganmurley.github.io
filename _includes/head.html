@@ -33,19 +33,24 @@
   {% endif %}
   <!-- end of Discourse -->
 
-  <!-- start of Twitter cards -->
+  <!-- start of metadata -->
   {% if page.summary %}
   <meta name="twitter:description" content="{{ page.summary }}">
+  <meta name="og:description" content="{{ page.summary }}">
   {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="og:description" content="{{ site.description }}">
   {% endif %}
 
   {% if page.image %}
   <meta name="twitter:card"  content="summary_large_image">
   <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}">
   {% else %}
   <meta name="twitter:card"  content="summary">
   <meta name="twitter:image" content="{{ site.title_image }}">
+  <meta property="og:image" content="{{ site.title_image }}">"
   {% endif %}
-  <!-- end of Twitter cards -->
+
+  <!-- end of metadata -->
 </head>

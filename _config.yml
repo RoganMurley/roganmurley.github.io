@@ -20,6 +20,7 @@ url: "https://roganmurley.com" # the base hostname & protocol for your site, e.g
 twitter_username: RoganMurley
 github_username:  RoganMurley
 description: "Adventures in programming and game design"
+google_analytics: "UA-64350704-1"
 
 # Build settings
 markdown: kramdown

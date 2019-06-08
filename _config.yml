@@ -16,7 +16,7 @@
 title: Rogan Murley
 email: rogan@roganmurley.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://roganmurley.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: RoganMurley
 github_username:  RoganMurley
 description: "Adventures in programming and game design"

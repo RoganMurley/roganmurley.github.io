@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "The bug I wish I hadn't caught"
+image: "/assets/catherine32_playing.png"
+summary: "I'm usually glad to catch a bug before release, but not this time."
 date:   2019-06-08 10:00:00 +0000
 comments: true
 ---
@@ -23,25 +25,3 @@ All the players hide in fear, for nobody can hope to match the experience of the
 Unfortunately this didn't actually occur because I caught the bug before release, but I wish it did. In fact, I was very tempted to just close my eyes and pretend I hadn't seen anything. If you fancy hoarding some sweet experience yourself then [sign up and play](https://www.ringofworlds.com/signup)!
 
 <div id="disqus_thread"></div>
-<script>
-
-{% if page.comments %}
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = {{ page.url }};  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = {{ page.id }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-console.log(this);
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://rogan-murley.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}

@@ -3,6 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-By day I'm a Software Engineer at [Udemy](https://www.udemy.com) working on the video player. By night I develop games and play with functional programming, occasionally at the same time.
+I'm a Software Engineer at [Reddit](https://www.redditinc.com/), previously [Udemy](https://about.udemy.com/) and [Potato](https://p.ota.to/).
+
+By day I tackle complex engineering challenges at scale. By night I develop games and play with functional programming, occasionally at the same time.
 
 My current big project is a multiplayer digital card game called Ring of Worlds. You can [play it](https://www.ringofworlds.com) or [peruse the source](https://github.com/RoganMurley/Ring-of-Worlds).

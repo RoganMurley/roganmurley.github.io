@@ -12,5 +12,3 @@ The same holds true when considering scale. When you're small you have few (or n
 what you have the opportunity to do on a small scale they most certainly would. Where they build anonymous matchmaking you can build community and genuine connection. Where they try to appeal to the broadest audience you can totally envelope a niche.
 
 Your project has constraints. Don’t fight them, acknowledge them.
-
-<div id="disqus_thread"></div>

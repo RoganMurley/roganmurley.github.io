@@ -11,5 +11,3 @@ I ended up using the raw install script from a previous GitHub release just like
 ```
 sudo curl -sSL https://raw.githubusercontent.com/commercialhaskell/stack40cf7b37526b86d1676da82167ea8758a854953b/etc/scripts/get-stack.sh | sh &&
 ```
-
-<div id="disqus_thread"></div>

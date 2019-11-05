@@ -23,5 +23,3 @@ Oops, it turns out players are looked up by username even if they're an AI with 
 All the players hide in fear, for nobody can hope to match the experience of the dreaded `CPU`. Until one day a new challenger arises, an account named `Guest`. It turns people play a lot of games when not signed in too. `CPU` and `Guest` become locked in an eternal war for experience supremacy, at least until I ban them both.
 
 Unfortunately this didn't actually occur because I caught the bug before release, but I wish it did. In fact, I was very tempted to just close my eyes and pretend I hadn't seen anything. If you fancy hoarding some sweet experience yourself then [sign up and play](https://www.ringofworlds.com/signup)!
-
-<div id="disqus_thread"></div>

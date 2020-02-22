@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tripwire Tests"
-summary: "Tests that fail in the future."
+summary: "Tests can be a powerful communication tool."
 date:   2020-02-22 10:00:00 +0000
 comments: true
 ---

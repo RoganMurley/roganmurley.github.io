@@ -5,7 +5,7 @@ summary: "Suddenly can't provision Digital Ocean droplets with docker-machine? H
 date:   2020-12-12 10:00:00 +0000
 comments: true
 ---
-I practice continuous deployment on my side project [GALGA](https://github.com/RoganMurley/GALGAGAME). Every time the [continuous integration pipeline](https://circleci.com/) finishes green the master the application is deployed... if all goes well. Earlier in the week all deploys broke 😱
+I practice continuous deployment on my side project [GALGA](https://github.com/RoganMurley/GALGAGAME). Every time the [continuous integration pipeline](https://app.circleci.com/pipelines/github/RoganMurley/GALGAGAME?branch=master) finishes green on master the application is deployed... if all goes well. Earlier in the week all deploys broke 😱
 
 Deploying the application involves spinning up a new [Digital Ocean](https://www.digitalocean.com/) droplet using `docker-machine`. Earlier this week every deployment started mysteriously failing with the following error:
 ```

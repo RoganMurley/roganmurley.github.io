@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Game rules with a Free Monad DSL"
-summary: "How and why GALGA uses a Free Monad DSL for its game rules."
+summary: "How and why I used a Free Monad DSL for my game GALGA."
 date:   2021-12-11 13:00:00 +0000
 image: "/assets/hero.png"
 comments: true

@@ -38,7 +38,7 @@ A free monad is a monad that satisfies the monad laws and nothing more. It has a
 
 Other flavours of DSL can swap implementations in much the same way free monads swap out interpreters, so why choose free monads? Their unique edge is that the "AST" is maintained and can be introspected and metaprogrammed. Earlier I mentioned that this is a key requirement of our DSL, because we have cards that rewrite the rules of other cards at runtime.
 
-*(side note: "freer" monads improve on the performance and interpreter composability of free monads, but I haven't looked deeply into them yet)*
+*(side note: ["freer monads"](https://hackage.haskell.org/package/freer-simple-1.2.1.1/docs/Control-Monad-Freer.html) improve on the performance and interpreter composability of free monads, but I haven't played much with them yet. It looks like they are better but there is a lot less beginner-friendly writing about them.)*
 
 ![GALGA gif](/assets/galga3.gif)
 
@@ -84,6 +84,6 @@ rewriteRule dsl = dsl
 
 Embedded DSLs have proved a powerful pattern. I initially planned to use the DSLs only for card rules, but they have expanded to be used for every part of the core game logic. They are the killer feature of Haskell and I will definitely be using them again in the future. As for free monads, I wouldn't recommend them for most use cases as they are relatively complex and slow compared to alternatives. However, metaprogramming was crucial for this project and so they were the right choice.
 
-I hope you gleaned something useful from this blog post! If you did, consider checking out [GALGA for free in your browser](https://www.galgagame.com), or [peruse the source on GitHub](https://github.com/RoganMurley/galgagame) 🙇‍♂️
+I hope you gleaned something useful from this blog post! If you did, consider checking out [GALGA for free in your browser](https://www.galgagame.com) or [peruse the source on GitHub](https://github.com/RoganMurley/galgagame) 🙇‍♂️
 
 *May your wheel keep turning.*

@@ -3,6 +3,7 @@ layout: post
 title: "Game rules with a Free Monad DSL"
 summary: "How and why GALGA uses a Free Monad DSL for its game rules."
 date:   2021-12-11 13:00:00 +0000
+image: "/assets/hero.png"
 comments: true
 ---
 This post is about how and why my multiplayer card game [GALGA](https://www.galgagame.com) uses a Free Monad DSL for its game rules. If that's gobbledygook to you, read on and hopefully it'll make at least a little more sense by the end!

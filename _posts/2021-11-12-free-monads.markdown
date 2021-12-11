@@ -74,7 +74,7 @@ do
 
 Because Haskell is a lazy language we only compute the interpretations of the rules DSL that we actually use. In some case we only need the state change, for example when the [AI evaluates moves](https://github.com/RoganMurley/GALGAGAME/blob/0f119962d4e6a240ee549b9d1134bbbcc807030b/server/src/ArtificialIntelligence.hs#L43). If we simply don't use the animations they are never computed.
 
-Because Free Monads give us ASTs for our DSLs, we can metaprogram them by transforming those ASTs. For example, the rule "healing deals damage instead" can be implemented as a [rewrite rule that replaces healing AST nodes with damage nodes](https://github.com/RoganMurley/GALGAGAME/blob/0f119962d4e6a240ee549b9d1134bbbcc807030b/server/src/StatusEff.hs#L29). This is why we have a separate DSL for rules rather than making it an abstraction over the primitive DSL. It is impossible to identify healing to damage when the AST nodes are just getters and setters.
+Because Free Monads give us ASTs for our DSLs, we can metaprogram them by transforming those ASTs. For example, the rule "healing deals damage instead" can be implemented as a [rewrite rule that replaces healing AST nodes with damage nodes](https://github.com/RoganMurley/GALGAGAME/blob/0f119962d4e6a240ee549b9d1134bbbcc807030b/server/src/StatusEff.hs#L29). This is why we have a separate DSL for rules rather than making it an abstraction over the primitive DSL. It is impossible to identify healing AST nodes when the AST is made of just getters and setters.
 
 ```haskell
 -- Example healing to hurting rewrite rule

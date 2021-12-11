@@ -15,7 +15,7 @@ The rules are a [Domain-Specific Language](https://en.wikipedia.org/wiki/Domain-
 
 I implemented [GALGA](https://www.galgagame.com/) in Haskell, and one of the many motivations for this is that Haskell has great support for embedded DSLs. It lets you write a DSL while retaining the full and considerable power of the Haskell type system. It shouldn't be surprising that a language steered by programming language researchers would be good at writing programming languages 😉
 
-There are a few different ways to use embedded DSLs in Haskell ([Free Monads](https://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html), [MTL](https://hackage.haskell.org/package/mtl), [Tagless Final](https://serokell.io/blog/introduction-tagless-final) and more). Free Monads are *usually* the wrong choice as they are worse than the other options in both performance and type complexity, but I chose to use them anyway for reasons I'll be digging into below.
+There are a few different ways to use embedded DSLs in Haskell ([Free Monads](https://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html), [Tagless Final](https://serokell.io/blog/introduction-tagless-final) and more). Free Monads are *usually* the wrong choice as they are worse than the other options in both performance and type complexity, but I chose to use them anyway for reasons I'll be digging into below.
 
 ![Another GALGA gif](/assets/galga.gif)
 
@@ -37,6 +37,8 @@ No, [_mathematically_ free](https://en.wikipedia.org/wiki/Free_object).
 A free monad is a monad that satisfies the monad laws and nothing more. It has all the stucture of a monad and none of the "effects". I like to think of it as a program AST ([Abstract Syntax Tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree)) without an interpreter. The free monad represents some computation, but it doesn't define what that computation actually means until paired with an interpreter. Different interpreters can interpret in different ways.
 
 Other flavours of DSL can swap implementations in much the same way free monads swap out interpreters, so why choose free monads? Their unique edge is that the "AST" is maintained and can be introspected and metaprogrammed. Earlier I mentioned that this is a key requirement of our DSL, because we have cards that rewrite the rules of other cards at runtime.
+
+*(side note: "freer" monads improve on the performance and interpreter composability of free monads, but I haven't looked deeply into them yet)*
 
 ![GALGA gif](/assets/galga3.gif)
 

@@ -15,7 +15,7 @@ I never got to play Pokémon Yellow. I did, however, have a Pokémon Yellow in m
 
 ![Victory road](/assets/victory-road.png){: width="256" }
 
-The Master Guide was so comprehensive that you could probably reverse-engineer the whole Pokémon Yellow game from it. Stop a minute to think about that would look like. Really, what would it look like? It wouldn't be _the_ Pokémon Yellow, but it would be something a lot like Pokémon Yellow. Because of this we will say that the Master Guide is a _good model_ of Pokémon Yellow.
+The Master Guide was so comprehensive that you could probably reverse-engineer the whole Pokémon Yellow game from it. Stop a minute to think about what that would look like. Really, what would it look like? It wouldn't be _the_ Pokémon Yellow, but it would be something a lot like Pokémon Yellow. Because of this we will say that the Master Guide is a _good model_ of Pokémon Yellow.
 
 ![DALLE-generated image of a Pokémon Yellow screenshot](/assets/yellow-dalle.png){: width="256" }
 
@@ -27,11 +27,11 @@ Game guides are good models of games. In 2023 game guides are built collaborativ
 
 ![Bulbapedia](/assets/bulbapedia.png){: width="512" }
 
-I'm now almost 30 years old and have access to technology once the reserve of science fiction. Using [text as the universal interface](https://scale.com/blog/text-universal-interface) we can create text, art, audio and code from raw compute. With this technology we could mechnically create a game from just its model. We can put the Pokémon Yellow wiki in and get a Pokémon Yellow game out.
+I'm now almost 30 years old and have access to technology that was once the reserve of science fiction. Using [text as the universal interface](https://scale.com/blog/text-universal-interface) we can create text, art, audio and code from raw compute. With this technology we could mechanically create a game from just its model. We can put the Pokémon Yellow wiki in and get a Pokémon Yellow game out.
 
 Why is this interesting? Suppose we want to change Pokémon Yellow by adding a new Pokémon. We don't need to change any code, we just need to edit the wiki and then press the "remake game" button. Modding a game becomes as simple as editing the wiki. Creating a game becomes as simple as writing its wiki.
 
-As of early 2024 GenAI technology isn't of course advanced enough to do this in the general case. However, I believe it is already capable of working in a restriced environment. We can create wiki software today that makes a specific kind of game (such as a Pokémon game). We could use a static game engine for the core, but dynamically create the areas, enemies, items etc. It's hard to do this, but certainly possible.
+As of early 2024 GenAI technology isn't of course advanced enough to do this in the general case. However, I believe it is already capable of working in a restricted environment. We can create wiki software today that makes a specific kind of game (such as a Pokémon game). We could use a static game engine for the core, but dynamically create the areas, enemies, items etc. It's hard to do this, but certainly possible.
 
 So that's what I'm hacking on right now as my side project. I'm making a wiki that makes games. Check out [langengine.com](https://www.langengine.com) to join the waitlist.
 

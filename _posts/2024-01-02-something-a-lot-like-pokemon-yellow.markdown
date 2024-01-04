@@ -32,6 +32,8 @@ I'm now almost 30 years old and I still haven't played Pokémon Yellow. I _did_ 
 
 Though I don't know for sure, that fake Sapphire was probably a machine translated ROM hack. An enterprising individual likely ran part of the original Japanese ROM through 2003 translation software before the official western release, then sold it to tourists. The boulder blocking my way is more of a mystery... my best guess is that it was added to hide parts of the game that weren't working. I can't be totally sure that it wasn't there in the original Pokémon Sapphire, but the online guide I checked didn't mention it. Maybe the guide was just a poor model.
 
+![An immovable boulder blocking your way](/assets/boulder.png){: width="512" }
+
 Technology is a lot different in 2024. With the recent insane advances in GenAI we now have access to capabilities that were once the reserve of science fiction. Using [text as the universal interface](https://scale.com/blog/text-universal-interface) we can create text, art, audio and code from raw compute. With this technology we could mechanically create a game from just its model. We can put the Pokémon Yellow wiki in and get a Pokémon Yellow game out.
 
 Why is this interesting? Suppose we wanted a new version of Pokémon Yellow with a new Pokémon creature (or an immovable boulder if we were feeling devious). We don't need to hack a ROM or change the source code, we just need to edit the wiki and then press the "remake game" button. Modding a game becomes as simple as editing the wiki. Creating a game becomes as simple as writing its wiki.

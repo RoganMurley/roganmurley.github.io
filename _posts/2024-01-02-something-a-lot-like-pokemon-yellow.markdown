@@ -10,7 +10,7 @@ When I was 7 years I old got my hands on the [Pokémon Yellow Master Guide](http
 
 ![Pokémon guide](/assets/pokemon-guide.png){: width="256" }
 
-But the truth is I didn't even own a gameboy, yet alone Pokémon Yellow. I prayed against all odds that I'd find a gameboy on sale for £1 at Poundland, which only went to show that I didn't have a great grasp of economics.
+But the truth is I didn't even own a Game Boy, yet alone Pokémon Yellow. I prayed against all odds that I'd find a Game Boy on sale for £1 at Poundland, which only went to show that I didn't have a great grasp of economics.
 
 I never got to play Pokémon Yellow. I did, however, have a Pokémon Yellow in my head. From the Master Guide I had gained a surprisingly deep knowledge of the game without ever actually playing it. In my head you could find Moltres on the second floor of Victory Road, just as it is in the real game (I am assured). I didn't know what it felt like to catch Moltres, sure, but I knew its stats, where to find it and what it looked like.
 
@@ -24,17 +24,17 @@ We could do the same reverse-engineering exercise using a game review. Could we 
 
 ![Pokémon review](/assets/pokemon-review.jpg){: width="512" }
 
-Game guides are good models of games. In 2023 game guides are built collaboratively using wikis like [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page). A game wiki is an _excellent_ model of a game. Given a game wiki we should be able to recreate the corresponding game a reasonable level of fidelity.
+Game guides are good models of games. In 2023 game guides have come a long way, and are now built collaboratively using wikis like [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page). A game wiki is an _excellent_ model of a game. Given a game wiki we should be able to recreate the corresponding game a reasonable level of fidelity.
 
 ![Bulbapedia](/assets/bulbapedia.png){: width="512" }
 
-In a normal year this is where the thought experiment would end. 2024 is not a normal year. With the recent advances in GenAI we now have access to capabilities that were once the reserve of science fiction. Using [text as the universal interface](https://scale.com/blog/text-universal-interface) we can create text, art, audio and code from raw compute. With this technology we could mechanically create a game from just its model. We can put the Pokémon Yellow wiki in and get a Pokémon Yellow game out.
+In a normal year this is where the thought experiment would end, but 2024 is not a normal year. With the recent advances in GenAI we now have access to capabilities that were once the reserve of science fiction. Using [text as the universal interface](https://scale.com/blog/text-universal-interface) we can create text, art, audio and code from raw compute. With this technology we could mechanically create a game from just its model. This ceases to be just a thought experiment: we build a system that takes the Pokémon Yellow wiki in and pushes a Pokémon Yellow game out.
 
-Why is this interesting? Suppose we wanted a new version of Pokémon Yellow with a new Pokémon creature. We don't need to change the source code, we just need to edit the wiki and then press the "remake game" button. Modding a game becomes as simple as editing the wiki. Creating a game becomes as simple as writing its wiki.
+Why is this interesting? Suppose we want a new version of Pokémon Yellow with a new Pokémon creature. We don't need to change the game's source code, we just need to edit the wiki and then press the "remake game" button. Modding a game becomes as simple as editing the wiki. Creating a game becomes as simple as writing its wiki.
 
-Tech isn't yet advanced enough to make games like this in the general case, but the seed is there for the future. However, I believe that today we are actually already capable of doing this in a restricted environment. I think mechanically create a Gameboy-era Pokémon game from a model by using a static game engine and dynamically creating the areas, enemies, items etc. from the wiki. It's not easy, but I think it's possible.
+Despite the GenAI revolution our capabilities aren't yet advanced enough to do this in the general case. However, I believe that today we are already capable of doing this in a restricted environment. I think we could mechanically create a Game Boy era Pokémon game from a model by using a static game engine and dynamically creating the areas, enemies, items etc. from the wiki. It's not easy, but I think it's possible.
 
-This is what I'm hacking on right now: a wiki that makes games. Check out [langengine.com](https://www.langengine.com) to join the waitlist.
+This is what I'm hacking on right now: a wiki that makes games. Check out [langengine.com](https://www.langengine.com/waitlist) to join the waitlist.
 
 ![Langengine screenshot](/assets/langengine-peek.png){: width="512" }
 

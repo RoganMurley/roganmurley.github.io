@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a Staff Engineer at [Reddit](https://www.redditinc.com/) working on Top of Funnel Growth.
+I'm a Senior Staff Engineer at [Reddit](https://www.redditinc.com/) working on User Acquisition.
 
 By day I tackle complex engineering challenges at scale. By night I develop games and play with functional programming, occasionally at the same time.
 

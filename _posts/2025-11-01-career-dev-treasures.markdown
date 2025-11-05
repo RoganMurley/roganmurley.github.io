@@ -34,13 +34,9 @@ Inspiration from others can be hugely clarifying and motivating.
   - Long form candid conversations with engineering leaders.
   - Highlights:
     - [Instagram Principal Engineer on Promotions, Breaking Prod, Tech Leading](https://www.youtube.com/watch?v=QUhC5BDZt-E&list=PLmvMm6hsJgCc9VPDgq8SQEFMln_azyKSG)
-      - How to tech lead, managing risk and manage your valuable time.
     - [OpenAI & Meta Distinguished Engineer (IC9) On Working With Zuck, Carmack & Career Growth](https://www.youtube.com/watch?v=v2JxdjTi_1I&list=PLmvMm6hsJgCc9VPDgq8SQEFMln_azyKSG)
-      - Breakdown of the impact and scope expected from IC1 to IC9.
     - [Amazon VP On Stack Ranking & PIPs, Working With Bezos, His Promotions](https://www.youtube.com/watch?v=40-ENZmqcz0&list=PLmvMm6hsJgCc9VPDgq8SQEFMln_azyKSG)
-      Candid candid dive into how big tech promos and layoffs actually work.
     - [Shopify Distinguished Eng (L10) on Principal+ Engineering, Career Story, Regrets](https://www.youtube.com/watch?v=rY44ViY45q8)
-      - Great exploration of Principal+ engineering and the "specialized generalist".
 - [Staff Engineer Stories](https://staffeng.com/stories/) by Will Larson
   - Stories from the Staff Engineer book.
 - [StaffEng Podcast](https://podcast.staffeng.com/) by David Noël-Romas and Alex Kessinger
@@ -48,7 +44,7 @@ Inspiration from others can be hugely clarifying and motivating.
 
 # Management
 
-As an Individual Contributor you should understand how your manager thinks, and be good at management-shaped work.
+As a Staff+ engineer you should understand how your manager thinks, and be good at management-shaped work.
 
 - [High Output Management](https://www.amazon.co.uk/High-Output-Management-Andrew-Grove/dp/0679762884) by Andy Grove
   - The canonical engineering management text, a must read.
